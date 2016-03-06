@@ -1,12 +1,12 @@
 spring:
   jpa:
-  database: MYSQL
     hibernate:
       ddl-auto: validate
+  database: mysql
   datasource:
-    url: jdbc:mysql://mysql/docker
-    username: user
-    password: password
+    url: jdbc:mysql://wonwoo.ml:18802/docker
+    username: root
+    password: dheh123
     driver-class-name: com.mysql.jdbc.Driver
     validation-query: select 1
 
