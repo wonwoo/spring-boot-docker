@@ -4,9 +4,9 @@ spring:
       ddl-auto: validate
   database: mysql
   datasource:
-    url: jdbc:mysql://wonwoo.ml:18802/docker
-    username: root
-    password: dheh123
+    url: jdbc:mysql://mysql:3306/docker
+    username: user
+    password: password
     driver-class-name: com.mysql.jdbc.Driver
     validation-query: select 1
 
