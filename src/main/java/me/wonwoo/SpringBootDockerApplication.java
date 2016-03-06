@@ -24,11 +24,11 @@ public class SpringBootDockerApplication {
     @Autowired
     private AccountRepository repository;
 
-//    @Bean
-//    CommandLineRunner runner() {
-//        return args -> Arrays.asList(
-//                new Account(1L,"wonwoo","wonwoo@test.com"),
-//                new Account(2L,"kevin","kevin@test.com")
-//        ).forEach(repository::save);
-//    }
+    @Bean
+    CommandLineRunner runner() {
+        return args -> Arrays.asList(
+                new Account(1L,"wonwoo","wonwoo@test.com"),
+                new Account(2L,"kevin","kevin@test.com")
+        ).forEach(repository::save);
+    }
 }
