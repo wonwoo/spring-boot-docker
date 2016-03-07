@@ -8,4 +8,3 @@ spring:
     username: ${MYSQL_ENV_MYSQL_USER}
     password: ${MYSQL_ENV_MYSQL_PASSWORD}
     driver-class-name: com.mysql.jdbc.Driver
-    validation-query: select 1
