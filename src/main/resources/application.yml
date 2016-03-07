@@ -1,7 +1,7 @@
 spring:
   jpa:
     hibernate:
-      ddl-auto: validate
+      ddl-auto: create
   database: mysql
   datasource:
     url: jdbc:mysql://mysql:3306/docker
