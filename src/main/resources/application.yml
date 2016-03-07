@@ -4,21 +4,8 @@ spring:
       ddl-auto: create
   database: mysql
   datasource:
-    url: jdbc:mysql://mysql:3306/docker
-    username: user
-    password: password
-    driver-class-name: com.mysql.jdbc.Driver
-    validation-query: select 1
-
----
-
-spring:
-  profiles: container
-  datasource:
     url: jdbc:mysql://${MYSQL_PORT_3306_TCP_ADDR}:${MYSQL_PORT_3306_TCP_PORT}/${MYSQL_ENV_MYSQL_DATABASE}
     username: ${MYSQL_ENV_MYSQL_USER}
     password: ${MYSQL_ENV_MYSQL_PASSWORD}
-    initialize: true
-  jpa:
-    database-platform: org.hibernate.dialect.MySQLDialect
-
+    driver-class-name: com.mysql.jdbc.Driver
+    validation-query: select 1
