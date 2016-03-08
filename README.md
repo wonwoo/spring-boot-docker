@@ -3,7 +3,7 @@
 Spring boot docker Sample
 
 ```
-$ docker pull wonwoo/spring-boot-docker
+$ git clone https://github.com/wonwoo/spring-boot-docker.git
 $ cd spring-boot-docker
 $ mvn clean package docker:build
 ```
