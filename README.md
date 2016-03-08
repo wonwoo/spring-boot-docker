@@ -2,6 +2,8 @@
 
 Spring boot docker Sample
 
+[![](https://badge.imagelayers.io/wonwoo/spring-boot-docker:latest.svg)](https://imagelayers.io/?images=wonwoo/spring-boot-docker:latest 'Get your own badge on imagelayers.io')
+
 ```
 $ git clone https://github.com/wonwoo/spring-boot-docker.git
 $ cd spring-boot-docker
